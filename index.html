@@ -8,7 +8,11 @@
             @import 
         
                 url("https://fonts.googleapis.com/css?family=Amatic+SC|Architects+Daughter|Rambla|Roboto|Rock+Salt"); 
-                
+            
+            .banner {
+                width: 100%;
+            }
+            
             nav {
                 background-color: #2a7e43;
                 padding: 1em;
@@ -23,11 +27,11 @@
                 padding: 1em;
             }
             
-            #footer {
+            #joinus {
                 background-color: #2a7e43;
                 padding: 1em;
             }
-            
+         
             #whitewaterrushbody {
                 color: black;
             }
@@ -40,8 +44,10 @@
                 margin: 0 auto;
             }
             
-            #copyright {
-                text-align: center;
+            #footer {
+                text-align: left;
+                margin-top: -75px;
+                height: 55px;
             }
             
             h1,h2,h3 {
@@ -52,10 +58,27 @@
                 font-family: "Architects Daughter", sans-serif;
             }
             
-            fullwidth {
-                
+            img {
+                max-width: 100%;
+            }
+            
+            #relax, #whitewaterrush {
+                display:flex;
+                flex-flow: row wrap;
+                align-items: center;
+            }
+            
+            .leftcol, .rightcol {
+                width: 48%;
+                flex: 1 0 15em;
+                margin: .5em;
+            }
+         
+            #facebook {
+                margin-left:750px
             }
         
+    
         </style>
         
         
@@ -66,10 +89,14 @@
     <div id="webbody">
         
         <body>
-            <img class="fullwidth" src="http://brothert.net/dryoar/images/river-wide2.JPG" alt="River Wide Image"><br>
-            <img src="http://brothert.net/dryoar/images/dryoarlogo.png" alt="Dry Oar boating logo">
+            
+            <img src="http://brothert.net/dryoar/images/dryoarlogo.png" alt="Dry Oar boating logo"><br>
+            
             <nav><ul><li><a href="index.html">Home</a></li><li><a href="index.html">Rivers</a></li><li><a href="index.html">FAQ</a></li><li><a href="index.html">Blog</a></li><li><a href="index.html">Rates/Dates</a></li><li><a href="index.html">Contact Us</a></li></ul></nav>
         
+            <img class="banner" src="http://brothert.net/dryoar/images/river-wide2.JPG" alt="River Wide Image">
+            
+            
             <section id="relax">
                 
                 <div class="leftcol">
@@ -95,19 +122,19 @@
                 </div>
             </section>
         
-            <section id="footer">
+            <section id="joinus">
             <h1>Join US!</h1>
                 <p>We invite you to come relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!</p>
             </section>
             
-            <a href="https://www.facebook.com"><img src="https://byui-cit.github.io/wdd100/images/icons/color/facebook.png" alt="Facebook"></a>
+            <a href="https://www.facebook.com"><img id="facebook" src="https://byui-cit.github.io/wdd100/images/icons/color/facebook.png" alt="Facebook"></a>
             
-            <a href="https://www.instagram.com"><img src="https://byui-cit.github.io/wdd100/images/icons/color/instagram.png"></a>
+            <a href="https://www.instagram.com"><img id="instagram" src="https://byui-cit.github.io/wdd100/images/icons/color/instagram.png"></a>
             
-            <a href="https://www.youtube.com"><img src="https://byui-cit.github.io/wdd100/images/icons/color/youtube.png"></a>
+            <a href="https://www.youtube.com"><img id="youtube" src="https://byui-cit.github.io/wdd100/images/icons/color/youtube.png"></a>
                 
         
-            <section id="copyright">
+            <section id="footer">
                 <p>&copy; 2015 Dry Oar || Jonah Egbert </p> 
             </section>
         </body>
