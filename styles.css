@@ -18,12 +18,13 @@ a:hover {
     background-color: azure;
     margin-left: 10px;
     position: relative;
-    width: 110px;
+    width: 111px;
 }
 
 nav a {
     padding: 1em .6em
 }
+
             nav {
                 background-color: #2a7e43;
                 font-size: 1.2em;
