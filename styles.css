@@ -14,13 +14,6 @@ a:hover {
     color: floralwhite;
 }
 
-.logo {
-    background-color: azure;
-    margin-left: 10px;
-    position: relative;
-    width: 110px;
-}
-
 nav a {
     padding: 1em .6em
 }
@@ -34,6 +27,13 @@ nav a {
             }
 nav ul {
     margin: 0;
+}
+
+.logo {
+    background-color: azure;
+    margin-left: 10px;
+    position: relative;
+    width: 110px;
 }
 
             #relax {
