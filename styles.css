@@ -6,9 +6,10 @@
                 width: 100%;
             }
 .logo {
-    position: relative;
     background-color: azure;
     margin-left: 10px;
+    position: relative;
+    width: 110px;
 }
 
 nav li {
