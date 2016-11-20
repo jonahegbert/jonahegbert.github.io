@@ -1,0 +1,71 @@
+@import 
+        
+                url("https://fonts.googleapis.com/css?family=Amatic+SC|Architects+Daughter|Rambla|Roboto|Rock+Salt"); 
+            
+            .banner {
+                width: 100%;
+            }
+            
+            nav {
+                background-color: #2a7e43;
+                font-size: 1.1em;
+            }
+            
+            #relax {
+                padding: 1em;
+            }
+            
+            #whitewaterrush {
+                padding: 1em;
+            }
+            
+            #joinus {
+                background-color: #2a7e43;
+                padding: 1em;
+            }
+         
+            #whitewaterrushbody {
+                color: black;
+            }
+            
+            #webbody {
+                width: 960px;
+            }
+            
+            #webbody {
+                margin: 0 auto;
+            }
+            
+            #footer {
+                text-align: left;
+                margin-top: -75px;
+                height: 55px;
+            }
+            
+            h1,h2,h3 {
+                font-family: "Rock Salt", "Architects Daughter", cursive;
+            }
+            
+            body {
+                font-family: "Architects Daughter", sans-serif;
+            }
+            
+            img {
+                max-width: 100%;
+            }
+            
+            #relax, #whitewaterrush {
+                display:flex;
+                flex-flow: row wrap;
+                align-items: center;
+            }
+            
+            .leftcol, .rightcol {
+                width: 48%;
+                flex: 1 0 15em;
+                margin: .5em;
+            }
+         
+            #facebook {
+                margin-left:750px
+            }
