@@ -29,9 +29,8 @@ nav ul {
     margin: 0;
 }
 
-.logo {
+#logo {
     background-color: azure;
-    margin-left: 10px;
     position: relative;
     width: 110px;
 }
